@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: New years eve is awesome
 thumbnail: post-4.png
 date: 2015-02-12
