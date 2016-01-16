@@ -80,7 +80,7 @@ function mentoringBubbleClick() {
 $(window).scroll(function () {
 	youtubeVidScroll();
 	// startMentoring();
-	startArticles();
+	startInstagram();
 });
 
 function youtubeVidScroll() {
@@ -89,10 +89,10 @@ function youtubeVidScroll() {
 	$('.video-strip').css('background-position', 'center -' + wScroll + '0px');
 }
 
-function startArticles(){
+function startInstagram(){
   var wScroll = $(window).scrollTop();
 
-  if($('section.articles').offset().top - $(window).height()/1.2 < wScroll) {
+  if($('section.instagram').offset().top - $(window).height()/1.2 < wScroll) {
     $('.article-thumb').each(function(i){
       setTimeout(function(){
         $('.article-thumb').eq(i).addClass('is-visible');

@@ -771,9 +771,9 @@ section.mentoring {
     box-sizing: border-box;
     margin-left: 0px; } }
 
-section.articles {
+section.instagram {
   background-color: #FFD700; }
-  section.articles .col-1 {
+  section.instagram .col-1 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -782,16 +782,16 @@ section.articles {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-  section.articles .home-cta {
+  section.instagram .home-cta {
     color: #FFD700; }
-  section.articles .article-wrap {
+  section.instagram .article-wrap {
     margin: -50px 0;
     overflow: hidden; }
-    section.articles .article-wrap::after {
+    section.instagram .article-wrap::after {
       clear: both;
       content: "";
       display: table; }
-  section.articles .article-thumb {
+  section.instagram .article-thumb {
     display: block;
     background-size: cover;
     background-position: center;
@@ -802,20 +802,20 @@ section.articles {
     opacity: 0;
     -webkit-transition: all 300ms ease-in-out;
             transition: all 300ms ease-in-out; }
-    section.articles .article-thumb.is-visible {
+    section.instagram .article-thumb.is-visible {
       opacity: 1; }
-    section.articles .article-thumb.is-emph {
+    section.instagram .article-thumb.is-emph {
       -webkit-animation-name: tada;
               animation-name: tada;
       -webkit-animation-duration: 1s;
               animation-duration: 1s;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both; }
-    section.articles .article-thumb:after {
+    section.instagram .article-thumb:after {
       content: "";
       display: block;
       padding-top: 100%; }
-  section.articles .article-meta {
+  section.instagram .article-meta {
     position: absolute;
     top: 0;
     left: 0;
@@ -829,19 +829,19 @@ section.articles {
     -webkit-transition: all 200ms ease-in-out;
             transition: all 200ms ease-in-out;
     opacity: 0; }
-    section.articles .article-meta .name {
+    section.instagram .article-meta .name {
       font-size: 18px;
       line-height: 1.2; }
-  section.articles .article-thumb:hover .article-meta {
+  section.instagram .article-thumb:hover .article-meta {
     opacity: 1;
     -webkit-transform: translate(0%, 0%) scale(1);
             transform: translate(0%, 0%) scale(1); }
   @media (max-width: 640px) {
-    section.articles .desc-wrap {
+    section.instagram .desc-wrap {
       margin-top: 100px;
       width: 100%; } }
   @media (max-width: 999px) and (min-width: 640px) {
-    section.articles .article-thumb {
+    section.instagram .article-thumb {
       width: 33.33%; } }
 
 @-webkit-keyframes tada {
