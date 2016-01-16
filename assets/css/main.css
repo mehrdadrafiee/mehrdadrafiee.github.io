@@ -900,28 +900,28 @@ section.vine {
     section.vine .description {
       margin-top: 50px; } }
 
-.home-sections .design {
+.home-sections .contact {
   padding: 0; }
 
-section.design {
+section.contact {
   color: white; }
-  section.design .home-lead {
+  section.contact .home-lead {
     text-align: center;
     font-size: 25px; }
-  section.design .linkedin, section.design .github {
+  section.contact .linkedin, section.contact .github {
     background-color: #0077B5;
     padding: 50px 0;
     -webkit-transition: background-color 150ms ease-in-out;
             transition: background-color 150ms ease-in-out;
     box-shadow: inset 0px 0px 100px 10px rgba(0, 0, 0, 0.5); }
-    section.design .linkedin.github, section.design .github.github {
+    section.contact .linkedin.github, section.contact .github.github {
       background-color: #666666; }
-      section.design .linkedin.github .home-cta, section.design .github.github .home-cta {
+      section.contact .linkedin.github .home-cta, section.contact .github.github .home-cta {
         color: #666666; }
-  section.design .home-cta {
+  section.contact .home-cta {
     font-size: 25px;
     color: #0077B5; }
-  section.design .design-img-link {
+  section.contact .design-img-link {
     display: block;
     float: left;
     width: calc(50% - 14px);
@@ -930,13 +930,13 @@ section.design {
     margin: 5px;
     -webkit-transition: -webkit-transform 150ms ease-in-out;
             transition: transform 150ms ease-in-out; }
-    section.design .design-img-link:hover {
+    section.contact .design-img-link:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-    section.design .design-img-link img {
+    section.contact .design-img-link img {
       width: 100%;
       display: block; }
-  section.design .cf {
+  section.contact .cf {
     clear: both;
     margin-bottom: 20px; }
 
