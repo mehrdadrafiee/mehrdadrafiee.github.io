@@ -7,8 +7,10 @@ section.intro
     // size: cover
   color: white
 
-  // iframe
-  //   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3)
+  .introduction
+    width: 500px
+    padding: 0
+    margin: auto 0
 
   .twitterBtn
     width: 100%
@@ -16,13 +18,23 @@ section.intro
   .home-cta
     color: #2E8B57
 
-  .description
-    display: flex
-    align-items: center
+  .twitterTimeline
+    width: 500px
+    height: 600px
+    padding: 0
+    margin: 0
+    -webkit-box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.75)
+    -moz-box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.75)
+    box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.75)
 
   @media(max-width: 640px)
-    .col1
+    .col-1
       text-align: center
 
-    .description
-      margin-top: 50px
+    .col-1.introduction
+      max-width: 90%
+      margin: auto
+
+    .col-1.twitterTimeline
+      width: 80%
+      margin: 40px auto

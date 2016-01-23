@@ -651,24 +651,29 @@ section.about {
 section.intro {
   background-color: #2E8B57;
   color: white; }
+  section.intro .introduction {
+    width: 500px;
+    padding: 0;
+    margin: auto 0; }
   section.intro .twitterBtn {
     width: 100%; }
   section.intro .home-cta {
     color: #2E8B57; }
-  section.intro .description {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
+  section.intro .twitterTimeline {
+    width: 500px;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.75); }
   @media (max-width: 640px) {
-    section.intro .col1 {
+    section.intro .col-1 {
       text-align: center; }
-    section.intro .description {
-      margin-top: 50px; } }
+    section.intro .col-1.introduction {
+      max-width: 90%;
+      margin: auto; }
+    section.intro .col-1.twitterTimeline {
+      width: 80%;
+      margin: 40px auto; } }
 
 section.instagram {
   background-color: #FFD700; }
