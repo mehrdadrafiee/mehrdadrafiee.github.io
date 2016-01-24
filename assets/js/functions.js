@@ -81,25 +81,34 @@ $(window).scroll(function () {
 	youtubeVidScroll();
 	// startMentoring();
 	startInstagram();
+	startTwitter();
 });
 
 function youtubeVidScroll() {
 	var wScroll = $(window).scrollTop();
 
 	$('.video-strip').css('background-position', 'center -' + wScroll + '0px');
-}
+};
+
+function startTwitter(){
+	var wScroll = $(window).scrollTop();
+
+	if($('section.intro').offset().top - $(window).height()/4.5 < wScroll) {
+		$('#twitterTimeline').addClass('pulse');
+	}
+};
 
 function startInstagram(){
   var wScroll = $(window).scrollTop();
 
-  if($('section.instagram').offset().top - $(window).height()/1.2 < wScroll) {
+  if($('section.instagram').offset().top - $(window).height()/1.3 < wScroll) {
     $('.article-thumb').each(function(i){
       setTimeout(function(){
         $('.article-thumb').eq(i).addClass('is-visible');
       }, 100 * i);
     });
   }
-}
+};
 
 function startMentoring() {
 	var wScroll = $(window).scrollTop();
