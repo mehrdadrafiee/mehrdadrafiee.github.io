@@ -4,16 +4,7 @@ $(function() {
 	designBGStuff();
 	smoothScroll(300);
   mobileNav();
-	typingLine();
 });
-
-
-function typingLine() {
-	$('section#about .typed').typed({
-		strings: ["Howdy, I am Ryan.", "Howdy, I am Mehrdad."],
-		typeSpeed: 30
-	});
-}
 
 ///////////////////////////////////////////////////////////////////////////////
 // Typed.js starts here
@@ -33,7 +24,7 @@ setTimeout(function(){
 
 setTimeout(function(){
         $(".element1").typed({
-            strings: ["my friends call me Ryan", "I write code every single day."],
+            strings: ["my friends call me Ryan", "I have a habit to write code every single day."],
             typeSpeed: 30, // typing speed
             backDelay: 750, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -41,11 +32,11 @@ setTimeout(function(){
 						showCursor: false,
             callback: function(){ } // call function after typing is done
         });
-    }, 2000);
+    }, 3000);
 
 setTimeout(function(){
         $(".element2").typed({
-            strings: ["Scroll down to find out more!"],
+            strings: ["Scroll down to find out more about me!"],
             typeSpeed: 30, // typing speed
             backDelay: 750, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -53,7 +44,7 @@ setTimeout(function(){
 						showCursor: false,
             callback: function(){ } // call function after typing is done
         });
-    }, 8500);
+    }, 11500);
 ///////////////////////////////////////////////////////////////////////////////
 // Typed.js ends here
 ///////////////////////////////////////////////////////////////////////////////
