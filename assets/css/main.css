@@ -622,6 +622,49 @@ body {
     -webkit-transform: translateY(0%);
             transform: translateY(0%); } }
 
+section.bash {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.22);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  section.bash ul {
+    margin-left: 10px;
+    list-style: none;
+    padding: 5px 0 0 20px;
+    margin: 0;
+    height: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    section.bash ul li {
+      display: inline;
+      margin: 0px 5px 0px 5px; }
+      section.bash ul li button {
+        height: 20px;
+        width: 20px;
+        border: none;
+        border-radius: 100%; }
+      section.bash ul li:last-child {
+        font-weight: 700;
+        margin-left: calc(50% - 192px); }
+  section.bash .close {
+    border: 1px solid #960e29;
+    background-color: #DC143C; }
+  section.bash .minimize {
+    border: 1px solid #b36200;
+    background: #FF8C00; }
+  section.bash .maximize {
+    border: 1px solid #239023;
+    background-color: #32CD32; }
+
 section.about {
   background-attachment: fixed;
   background-image: url(/assets/img/self.jpg);
@@ -635,6 +678,10 @@ section.about {
     line-height: 1;
     margin-left: -108px;
     margin-top: 0; }
+  section.about .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite; }
   section.about .big {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400; }
@@ -648,6 +695,22 @@ section.about {
     margin-left: auto;
     margin-right: auto;
     max-width: 300px; } }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 section.intro {
   background-color: #2E8B57;

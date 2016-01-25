@@ -4,7 +4,16 @@ $(function() {
 	designBGStuff();
 	smoothScroll(300);
   mobileNav();
+	typingLine();
 });
+
+
+function typingLine() {
+	$('section#about .typed').typed({
+		strings: ["Howdy, I am Ryan.", "Howdy, I am Mehrdad."],
+		typeSpeed: 30
+	});
+}
 
 function mobileNav() {
   $('.mobile-nav-toggle').on('click', function(){
@@ -14,7 +23,7 @@ function mobileNav() {
   });
 }
 
-function smoothScroll (duration) {
+function smoothScroll(duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
 	    var target = $( $(this).attr('href') );
