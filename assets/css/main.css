@@ -630,7 +630,7 @@ section.about {
   section.about h2 {
     color: white;
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1;
     margin-left: -108px;
     margin-top: 0; }
@@ -638,7 +638,7 @@ section.about {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400; }
   section.about p {
-    font-weight: 300; }
+    font-weight: 400; }
   section.about .home-lead {
     padding-bottom: 180px; }
 
