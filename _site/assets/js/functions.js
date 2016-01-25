@@ -15,6 +15,48 @@ function typingLine() {
 	});
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Typed.js starts here
+///////////////////////////////////////////////////////////////////////////////
+setTimeout(function(){
+        $(".element0").typed({
+            strings: ["Howdy, I am Mehrdad."],
+            typeSpeed: 30, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+						showCursor: false,
+						// cursorChar: "|",
+            callback: function(){ } // call function after typing is done
+        });
+    }, 0);
+
+setTimeout(function(){
+        $(".element1").typed({
+            strings: ["my friends call me Ryan", "I write code every single day."],
+            typeSpeed: 30, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+						showCursor: false,
+            callback: function(){ } // call function after typing is done
+        });
+    }, 2000);
+
+setTimeout(function(){
+        $(".element2").typed({
+            strings: ["Scroll down to find out more!"],
+            typeSpeed: 30, // typing speed
+            backDelay: 750, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+						showCursor: false,
+            callback: function(){ } // call function after typing is done
+        });
+    }, 8500);
+///////////////////////////////////////////////////////////////////////////////
+// Typed.js ends here
+///////////////////////////////////////////////////////////////////////////////
 function mobileNav() {
   $('.mobile-nav-toggle').on('click', function(){
     var status = $(this).hasClass('is-open');
