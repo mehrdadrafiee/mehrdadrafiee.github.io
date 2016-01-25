@@ -668,8 +668,8 @@ section.intro {
     section.intro #twitterTimeline.pulse {
       -webkit-animation-name: pulse;
               animation-name: pulse;
-      -webkit-animation-duration: .5s;
-              animation-duration: .5s;
+      -webkit-animation-duration: 0.5s;
+              animation-duration: 0.5s;
       -webkit-animation-fill-mode: both;
               animation-fill-mode: both; }
   @media (max-width: 640px) {
