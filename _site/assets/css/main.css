@@ -670,7 +670,9 @@ section.about {
   background-image: url(/assets/img/self.jpg);
   background-position: center;
   background-size: cover;
-  color: white; }
+  color: white;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8); }
   section.about h2 {
     color: white;
     font-size: 60px;
