@@ -519,7 +519,8 @@ body {
     padding: 0 20px 0 0;
     text-align: right; }
     .home-wrap header .site-nav ul li {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-weight: 400; }
       .home-wrap header .site-nav ul li:hover, .home-wrap header .site-nav ul li:active, .home-wrap header .site-nav ul li:focus, .home-wrap header .site-nav ul li:visited {
         font-weight: 700;
         border-left: 8px solid black; }
