@@ -93,7 +93,7 @@ function youtubeVidScroll() {
 function startTwitter(){
 	var wScroll = $(window).scrollTop();
 
-	if($('section.intro').offset().top - $(window).height()/4.5 < wScroll) {
+	if($('section.intro').offset().top - $(window).height()/2 < wScroll) {
 		$('#twitterTimeline').addClass('pulse');
 	}
 };
