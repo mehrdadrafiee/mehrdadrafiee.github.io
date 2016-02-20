@@ -685,6 +685,8 @@ section.about {
       line-height: 1.5;
       margin: 0;
       margin-top: 0; }
+    section.about .col-1 .element1 .fa.fa-heart-o {
+      color: tomato; }
 
 @media (max-width: 640px) {
   section.about h2, section.about .home-lead {
