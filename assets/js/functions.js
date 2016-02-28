@@ -20,12 +20,12 @@ setTimeout(function(){
 						// cursorChar: "|",
             callback: function(){ } // call function after typing is done
         });
-    }, 0);
+    }, 500);
 
 setTimeout(function(){
 				var love = '<i class="fa fa-heart-o"></i>';
         $(".element1").typed({
-            strings: ["my friends call me Ryan", "I " + love + " Open Source and this page is brought to you by best of them."],
+            strings: ["my friends call me Ryan", "I " + love + " Open Source and this page is brought to you by using best of them."],
             typeSpeed: 30, // typing speed
             backDelay: 750, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -33,7 +33,7 @@ setTimeout(function(){
 						showCursor: false,
             callback: function(){ } // call function after typing is done
         });
-    }, 3000);
+    }, 4000);
 
 setTimeout(function(){
         $(".element2").typed({
@@ -45,7 +45,7 @@ setTimeout(function(){
 						showCursor: false,
             callback: function(){ } // call function after typing is done
         });
-    }, 12000);
+    }, 13000);
 ///////////////////////////////////////////////////////////////////////////////
 // Typed.js ends here
 ///////////////////////////////////////////////////////////////////////////////
