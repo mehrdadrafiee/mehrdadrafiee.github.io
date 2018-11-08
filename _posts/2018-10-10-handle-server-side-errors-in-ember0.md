@@ -11,7 +11,6 @@ It happens that server does not return the data you requested for and throws a g
 // app/mirage/config.js
 this.get('/posts', function(schema, request) {
   return new Mirage.Response(403, {}, {});
-)};
 {% endhighlight %}
 
 Then in the modelhook where the endpoint is being called, I would need to looks for any error that may occur and handle them accordingly.
