@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cookie based session management in React
+title: Cookie Based Session Management In React
 date: 2020-06-02
 description: This post demonstrates managing user session based on parameters set in Cookies
 keywords: react, session management, cookie
